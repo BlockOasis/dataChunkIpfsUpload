@@ -1,0 +1,16 @@
+{
+    "name": "data_chunking",
+    "version": "1.0.0",
+    "description": "MQTT data handling system that saves received data into chunks",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "author": "Aryamanraj",
+    "license": "MIT",
+    "dependencies": {
+        "@lighthouse-web3/sdk": "^0.2.5",
+        "mqtt": "^4.2.6",
+        "winston": "^3.3.3"
+    }
+}
